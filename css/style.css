@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    margin-top: 5vh;
+    padding: 0;
+    min-height: 95vh;
+    background-image: linear-gradient(to top, #323232, #272727, #1c1c1c, #111111, #000000);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    color: white;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.link {
+    text-decoration: none;
+    color: white;
+    border: solid white 2px;
+    border-radius: 40px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.hashtag {
+    padding-top: 10px;
+    color: white;
+}
