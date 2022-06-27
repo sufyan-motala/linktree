@@ -10,8 +10,8 @@ body {
 }
 
 .profile-picture img {
-    width: 150px;
-    height: 150px;
+    width: 15vw;
+    height: 15vh;
     border-radius: 50%;
 }
 
@@ -29,6 +29,7 @@ body {
     color: white;
     border: solid white 2px;
     border-radius: 40px;
+    width: 80vw;
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
@@ -39,4 +40,9 @@ body {
 .hashtag {
     padding-top: 10px;
     color: white;
+}
+
+.link:hover {
+    background-color: white;
+    color: black;
 }
