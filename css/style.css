@@ -10,8 +10,8 @@ body {
 }
 
 .profile-picture img {
-    width: 15vw;
-    height: 15vh;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
 }
 
